@@ -1,4 +1,4 @@
-baseURL: "https://amama-papermod.pages.dev/" # 暂时填你的 Pages 域名，以后换成腾讯云域名
+baseURL: "https://amama.amamahuang.workers.dev" # 暂时填你的 Pages 域名，以后换成腾讯云域名
 languageCode: "zh-cn"
 title: "投资笔记 | 价值发现" # 你的网站标题
 theme: "PaperMod" # 必须和 themes 目录下的文件夹名完全一致
