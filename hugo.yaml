@@ -1,0 +1,33 @@
+baseURL: "https://amama-papermod.pages.dev/" # 暂时填你的 Pages 域名，以后换成腾讯云域名
+languageCode: "zh-cn"
+title: "投资笔记 | 价值发现" # 你的网站标题
+theme: "PaperMod" # 必须和 themes 目录下的文件夹名完全一致
+
+# 核心配置
+params:
+  env: production
+  title: "个人日志"
+  description: "记录工厂管理与长线投资的点滴"
+  author: "Amama"
+  
+  # 首页配置
+  homeInfoParams:
+    Title: "你好, 欢迎来到我的空间 👋"
+    Content: "专注于摩托车制造、半导体行业研究及美股价值投资。"
+
+  # 社交链接
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/amama666"
+
+# 菜单配置
+menu:
+  main:
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 10
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 20
